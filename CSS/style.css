@@ -7,10 +7,26 @@
     display: flex;
     flex-direction: column;
     height: 100px;
-    background-color: rgb(218, 129, 129);
+    background-color: rgb(255, 255, 255);
   }
+  
   .flex-item {
     display: inline-block;
     background-color: rgb(8, 38, 138);
     padding: 10px;
+  }
+  /*De aqui pa abajo es todo lo mio*/
+  a:hover {
+    color: red; 
+  }
+
+  a:visited {
+    color: green;
+  }
+  
+  .mi-clase {
+      display: inline-block;
+      font-family: sans-serif;
+      font-size: 20px;
+      color: darkblue;
   }
